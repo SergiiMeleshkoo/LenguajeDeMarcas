@@ -1,0 +1,7 @@
+1- El archivo no está correctamente indicado como HTML en el DOCTYPE
+2- El idioma del archivo no está correctamente indicado ya que la etiqueta solo pone lan
+3- El titulo del archivo no tiene etiqueta de cierre
+4- El primer parrafo esta mal anidado, ha cerrado primero el parrafo antes que el bold que tendría que estar dentro del parrafo
+5- El segundo parrafo no tiene etiqueta de cierre
+6- No tiene una etiqueta de meta indicando el charset del archivo
+7- No sé si contarlo como error más que como un aviso, pero las pobres separaciones entre los apartados hace la comprensión del archivo más díficil de lo que debería de ser.
