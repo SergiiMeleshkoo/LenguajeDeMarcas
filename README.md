@@ -1,8 +1,8 @@
-# Repaso de HTML y CSS
-
-Apuntes de repaso de los conceptos principales de HTML y CSS.
+# Repaso de la asignatura
 
 ---
+
+## Apuntes de repaso del bloque 1
 
 ## 1. HTML: estructura básica de una página
 
