@@ -2,7 +2,15 @@
 
 ---
 
-## Apuntes de repaso del bloque 1
+## Recursos extra
+
+[Markdown Cheatsheet](https://aules.edu.gva.es/fp/pluginfile.php/14469403/mod_resource/content/1/markdown-cheatsheet.pdf)
+[Tablas de carácteres HTML](https://ascii.cl/es/codigos-html.htm)
+[Validador HTML](https://validator.w3.org/)
+
+---
+
+# Apuntes de repaso del bloque 1
 
 ## 1. HTML: estructura básica de una página
 
