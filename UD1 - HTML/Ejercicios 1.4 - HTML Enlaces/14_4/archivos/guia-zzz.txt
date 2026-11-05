@@ -1,0 +1,10 @@
+
+GUÍA DE ZENLESS ZONE ZERO
+
+Proyecto personal sobre el videojuego Zenless Zone Zero.
+
+Contenido:
+- Información sobre personajes.
+- Explicación de mecánicas de combate.
+- Consejos y estrategias.
+- Recomendaciones para formar equipos.

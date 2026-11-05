@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de alta de usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form action="#" method="POST">
+        <h2>Formulario de alta de usuario</h2>
+        <table>
+            <!-- Identificador de usuario -->
+            <tr>
+                <td colspan="2">
+                    <label for="id_usuario">Identificador de nuevo usuario: </label>
+                    <input type="text" id="id_usuario" name="id_usuario" value="usu_012345" readonly title="Identificador único del sistema de solo lectura.">
+                </td>
+            </tr>
+
+            <!-- Nombre y Apellidos -->
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" title="Introduce tu nombre de pila.">
+                </td>
+                <td>
+                    <label for="apellidos">Apellidos:</label><br>
+                    <input type="text" id="apellidos" name="apellidos" title="Introduce tus apellidos completos.">
+                </td>
+            </tr>
+
+            <!-- Contraseñas -->
+            <tr>
+                <td>
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" id="password" name="password" title="Introduce una contraseña segura.">
+                </td>
+                <td>
+                    <label for="confirm_password">Confirmar contraseña:</label><br>
+                    <input type="password" id="confirm_password" name="confirm_password" title="Vuelve a escribir tu contraseña para confirmarla.">
+                </td>
+            </tr>
+
+            <!-- Email -->
+            <tr>
+                <td colspan="2">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" title="Introduce tu dirección de correo electrónico de contacto.">
+                </td>
+            </tr>
+
+            <!-- Sexo -->
+            <tr>
+                <td>
+                    <label>Sexo:</label>
+                </td>
+                <td>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre" title="Selecciona si eres hombre.">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" name="sexo" value="Mujer" checked title="Selecciona si eres mujer.">
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+
+            <!-- Aficiones -->
+            <tr>
+                <td>
+                    <label>Aficiones:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="deportes" name="aficiones[]" value="Deportes" title="Marca si te gustan los deportes.">
+                    <label for="deportes">Deportes</label><br>
+                    <input type="checkbox" id="lectura" name="aficiones[]" value="Lectura" checked title="Marca si te gusta la lectura.">
+                    <label for="lectura">Lectura</label><br>
+                    <input type="checkbox" id="cine" name="aficiones[]" value="Cine" title="Marca si te gusta el cine.">
+                    <label for="cine">Cine</label>
+                </td>
+            </tr>
+
+            <!-- País -->
+            <tr>
+                <td>
+                    <label for="pais">País:</label>
+                </td>
+                <td>
+                    <select id="pais" name="pais" title="Selecciona tu país de residencia actual.">
+                        <option value="España" selected>España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Portugal">Portugal</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Subir foto -->
+            <tr>
+                <td>
+                    <label for="foto">Subir su foto:</label>
+                </td>
+                <td>
+                    <input type="file" id="foto" name="foto" title="Selecciona una imagen de perfil desde tus archivos locales.">
+                </td>
+            </tr>
+
+            <!-- Comentarios personales -->
+            <tr>
+                <td>
+                    <label for="comentarios">Comentarios personales:</label>
+                </td>
+                <td>
+                    <textarea id="comentarios" name="comentarios" cols="40" rows="5" title="Escribe aquí observaciones o comentarios adicionales.">Escriba aquí sus comentarios</textarea>
+                </td>
+            </tr>
+
+            <!-- Botones de acción -->
+            <tr class="buttons-row">
+                <td>
+                    <input type="reset" value="Resetear" title="Reinicializa todos los campos a sus valores predeterminados.">
+                </td>
+                <td>
+                    <input type="submit" value="Enviar" title="Envía los datos introducidos mediante el método POST.">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

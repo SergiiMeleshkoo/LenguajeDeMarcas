@@ -1,0 +1,41 @@
+/* Contenedor */
+.contenedor {
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+
+/* Cuadros */
+.cuadro {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Primer cuadro */
+.c1 {
+    background-color: red;
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+
+/* Segundo cuadro */
+.c2 {
+    background-color: blue;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    z-index: 1;
+}
+
+/* Tercer cuadro */
+.c3 {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

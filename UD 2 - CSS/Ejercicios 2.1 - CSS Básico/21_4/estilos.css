@@ -1,0 +1,13 @@
+#corp {
+    color: darkblue;
+    text-align: center;
+}
+
+[target] {
+    color: red;
+}
+
+[class] {
+    background-color: lightyellow;
+    padding: 5px;
+}

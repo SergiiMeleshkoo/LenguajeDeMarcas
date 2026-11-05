@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventario de videojuegos</title>
+
+    <style>
+        table {
+            border: 1px solid black;
+            border-spacing: 5px;
+            empty-cells: hide;
+            <!-- empty cells oculta sus bordes y fondo, pero como las celdas como tal existen
+                aun asi se siguen viendo visualmente en la pagina, pero sin nada -->
+            width: 70%;
+            background-color: #dddddd;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333333;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #eeeeee;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tfoot {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+
+        caption {
+            caption-side: bottom;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .vertical {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Inventario de videojuegos</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Categoría</th>
+                <th>Unidades</th>
+                <th>Precio unitario</th>
+                <th>Importe</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Zenless Zone Zero</td>
+                <td>Videojuego</td>
+                <td>10</td>
+                <td>0,00 €</td>
+                <td>0,00 €</td>
+            </tr>
+
+            <tr>
+                <td>Cyberpunk 2077</td>
+                <td>Videojuego</td>
+                <td>5</td>
+                <td>29,99 €</td>
+                <td>149,95 €</td>
+            </tr>
+
+            <tr>
+                <td>The Witcher 3</td>
+                <td>Videojuego</td>
+                <td>8</td>
+                <td>19,99 €</td>
+                <td>159,92 €</td>
+            </tr>
+
+            <tr>
+                <td>Mandos inalámbricos</td>
+                <td>Accesorios</td>
+                <td>12</td>
+                <td>39,99 €</td>
+                <td>479,88 €</td>
+            </tr>
+
+            <tr>
+                <td>Auriculares gaming</td>
+                <td>Accesorios</td>
+                <td>6</td>
+                <td>49,99 €</td>
+                <td>299,94 €</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" class="vertical">Promoción especial</td>
+                <td>Descuento</td>
+                <td>1</td>
+                <td>-10,00 €</td>
+                <td>-10,00 €</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">TOTAL</td>
+                <td>1.079,69 €</td>
+            </tr>
+        </tfoot>
+
+        <caption>Tabla de inventario y precios de la tienda</caption>
+
+    </table>
+
+</body>
+</html>

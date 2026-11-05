@@ -1,0 +1,23 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 30px;
+}
+
+/* Lista de tareas */
+.tareas {
+    /* Escritura abreviada:
+   imagen, posición y tipo de respaldo */
+    list-style: url("img/check.svg") outside square;
+}
+
+/* 
+Con inside, las viñetas forman parte del contenido
+del elemento y las líneas siguientes quedan alineadas
+con el texto después de la viñeta.
+
+Con outside, las viñetas quedan fuera del contenido
+y las líneas siguientes se alinean con el inicio del texto.
+*/

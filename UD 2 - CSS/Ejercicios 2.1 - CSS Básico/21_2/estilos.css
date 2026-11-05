@@ -1,0 +1,22 @@
+
+
+
+h1 {
+    color: darkred;
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    color: darkorange;
+}
+
+p {
+    text-align: justify;
+    color: gray;
+}
+
+/* El resultado no cambia porque la regla universal modifica una propiedad distinta*/
+* {
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial;
+    background-color: #df8871;
+    margin: 20px;
+}
+
+.form-container {
+    width: 680px;
+    margin: auto;
+}
+
+h2 {
+    background-color: #b03a2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    background-color: #e59880;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 75px;
+}
+
+.buttons-row td {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 5px 18px;
+}

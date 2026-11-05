@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Primera letra de cada párrafo */
+p::first-letter {
+    font-size: 25px;
+    color: red;
+}
+
+/* Primera línea de cada párrafo */
+p::first-line {
+    font-variant: small-caps;
+}
+
+/* Texto seleccionado */
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+/* Quitamos las viñetas */
+ul {
+    list-style: none;
+}
+
+/* Símbolo antes de cada elemento */
+li::before {
+    content: "✔ ";
+    color: green;
+}
+
+/* Flecha después de enlaces que abren otra pestaña */
+a[target="_blank"]::after {
+    content: " ↗";
+}
+
+/* Barra debajo de los subtítulos */
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: blue;
+}

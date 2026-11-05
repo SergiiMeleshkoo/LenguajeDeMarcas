@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.pagina {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    width: 45px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    color: #741111;
+    margin: 0;
+    font-size: 30px;
+}
+
+.titulo p {
+    color: darkgreen;
+    margin: 0;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #eee;
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.redes {
+    font-size: 0;
+    margin-top: 10px;
+}
+
+article {
+    display: inline-block;
+    width: 33.3%;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid white;
+}
+
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+
+article:nth-child(3) {
+    background-color: rgba(208, 61, 107, 0.5);
+}
+
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+
+article h2 {
+    font-size: 15px;
+    margin: 2px 0 5px;
+}
+
+article p {
+    font-size: 13px;
+    margin: 0;
+    display: flex;
+
+}
+
+article .social-icon {
+    width: 35px;
+    float: left;
+    margin-right: 7px;
+}
+
+.social-icon {
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.iconos-footer {
+    background-color: #eee;
+    padding: 4px;
+}
+
+.iconos-footer a {
+    display: inline-block;
+    margin: 0 2px;
+    vertical-align: middle;
+}
+
+.iconos-footer img {
+    width: 35px;
+}
+
+footer p {
+    background-color: #eee;
+    color: #777;
+    font-size: 10px;
+    margin: 3px 0 0;
+    padding: 3px;
+}

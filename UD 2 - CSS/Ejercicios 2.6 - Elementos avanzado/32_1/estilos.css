@@ -1,0 +1,35 @@
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Filas impares */
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* Filas pares */
+tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Hover solo en filas que no sean la cabecera */
+tr:not(:first-child):hover {
+    background-color: yellow;
+}
+
+/* Elementos 1, 4 y 7 */
+li:nth-child(3n+1) {
+    color: blue;
+}
+
+/* Solo el tercer elemento */
+li:nth-child(3) {
+    font-weight: bold;
+}
